@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Visualizer</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Title -->
+    <div id="title">
+      Sorting Visualizer
+    </div>
+    <!-- Menu Bar -->
+    <section>
+      <div class="container-fluid">
+        <!-- Left: Arr Size Bar -->
+        <div class="menu-item">
+          <h4>Array Size</h4>
+          <input
+            id="arr-size-bar"
+            type="range"
+            min="20"
+            max="150"
+            step="1"
+            value="60"
+          />
+        </div>
+        <!-- Middle: Buttons -->
+        <div class="menu-item">
+          <div id="new-arr">
+            <button
+              id="new-arr-btn"
+              type="button"
+              class="btn btn-secondary btn-md"
+            >
+              New Array
+            </button>
+          </div>
+          <div class="algos btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary">Bubble</button>
+            <button type="button" class="btn btn-primary">Selection</button>
+            <button type="button" class="btn btn-primary">Insertion</button>
+            <button type="button" class="btn btn-primary">Merge</button>
+            <button type="button" class="btn btn-primary">Quick</button>
+          </div>
+        </div>
+        <!-- Right: Arr Speed Bar -->
+        <div class="menu-item">
+          <h4>Algorithm Speed</h4>
+          <input
+            id="arr-speed-bar"
+            type="range"
+            min="1"
+            max="5"
+            step="1"
+            value="3"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sorting Display -->
+    <section>
+      <div id="arr"></div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="./index.js"></script>
+    <script src="./sorts/bubble_sort.js"></script>
+    <script src="./sorts/selection_sort.js"></script>
+    <script src="./sorts/insertion_sort.js"></script>
+    <script src="./sorts/merge_sort.js"></script>
+    <script src="./sorts/quick_sort.js"></script>
+    <script src="./sorts/heap_sort.js"></script>
+  </body>
+</html>
