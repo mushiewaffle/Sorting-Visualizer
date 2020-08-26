@@ -6,4 +6,4 @@
 <h3 align="center">Live Link:</h3>
 <h4 align="center">https://mushiewaffle.github.io/Sorting-Visualizer/</h4>
 <h3 align="center">Supported Sorting Algorithms incude:</h3>
-<h4 align="center">• Bubble • Selection • Insertion • Merge • Quick •</h4>
+<h4 align="center">• Bubble Sort • Selection Sort • Insertion Sort • Merge Sort • Quick Sort •</h4>
