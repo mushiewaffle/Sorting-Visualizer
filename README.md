@@ -18,10 +18,10 @@
 </p>
 <h3 align="center">Sorting a Medium Array</h3>
 <p align="center">
-  <img src="images/unsorted-md.png" />
+  <img src="images/md-unsorted.png" />
 </p>
 <p align="center">
-  <img src="images/sorted-md.png" />
+  <img src="images/md-sorted.png" />
 </p>
 <h3 align="center">Sorting a Small Array</h3>
 <p align="center">
