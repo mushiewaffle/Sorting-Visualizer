@@ -2,7 +2,7 @@
   <img src="images/sortvis.png"/>
 </p>
 <h3 align="center">A web application designed to visualize popular sorting algorithms.</h3>
-<h6 align="center">Users can customize the array size, sorting speed, and sorting algorithm.</br></br></h6>
+<h5 align="center">Users can customize the array size, sorting speed, and sorting algorithm.</br></br></h5
 <h1></h1>
 <h3 align="center">Live Link:</h3>
 <h4 align="center">https://mushiewaffle.github.io/Sorting-Visualizer/</br></br></h4>
