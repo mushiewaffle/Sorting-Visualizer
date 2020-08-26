@@ -5,7 +5,7 @@
 <h1></h1>
 <h3 align="center">Live Link:</h3>
 <h4 align="center">https://mushiewaffle.github.io/Sorting-Visualizer/</br></br></h4>
-<h3 align="center">Supported Sorting Algorithms incude:</h3>
+<h3 align="center">Supported Sorting Algorithms:</h3>
 <h4 align="center">• Bubble Sort • Selection Sort • Insertion Sort • Merge Sort • Quick Sort •</h4>
 <h1></h1>
 <p align="center">
